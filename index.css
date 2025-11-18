@@ -97,6 +97,7 @@ aside {
 	background-color: #fcfcfc;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
+	color:black;
 }
 .side ul {
 	margin: 0 0 0 10px;
