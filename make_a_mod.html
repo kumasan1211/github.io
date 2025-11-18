@@ -16,15 +16,21 @@
 <div id="content-wrapper">
 <main>
 <div id="inner">
-<h2>HOME</h2>
-<p>はじめまして Kumasan1211です</p>
-  <p>kube.jsを知っていますか？</p>
-  <p>kube.jsとはrecipeやitem,blockなどを改変、新しく作ることができます</p>
-  <a href="https://mcreator.net/download/2022-2" alt="">mcreater</a>を使う人もいるようですが　不評なので違うものについてです
-<h2>Kube.jsのおすすめな理由</h2>
-  <p>通常のmod設計のプログラミング言語はJavaを使用するのですが、Javaはファイルの設計、コードが長くなる などの難しいものばかりなので</p>
-  <p>考えて使用することが大切だと思います</p>
-  <p>kube.jsの英語のwikiがあり、それらを参考にすることで簡単に作成することができます</p>
+<h2>レシピの作成方法</h2>
+<ul>
+  event.shaped(
+  Item.of('minecraft:stone', 3), // arg 1: output
+  [
+    'A B',
+    ' C ', // arg 2: the shape (array of strings)
+    'B A'
+  ],
+  {
+    A: 'minecraft:andesite',
+    B: 'minecraft:diorite',  //arg 3: the mapping object
+    C: 'minecraft:granite'
+  }
+</ul>
   
 </div>
 </main>
@@ -32,11 +38,6 @@
 <div id="middle-inner">
 <div class="side-title"></div>
 <div class="side">
-<ul>
-  
-<li></li>
-<li></li>
-</ul>
 </div>
 </div>
 </aside>
