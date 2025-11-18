@@ -1,1 +1,6 @@
-https://kumasan1211.github.io/github.io/
+https://kumasan1211.github.io/kubejs_wiki/
+
+
+
+
+
