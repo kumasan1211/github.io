@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	backgrond-color: #FFFFFF;
 	font-family: "游ゴシック Medium", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 	line-height: 1.6;
     font-size: 16px;
@@ -165,4 +166,5 @@ h3 {
 h4 {
 	font-size: 14px;
 }
+	
 }
