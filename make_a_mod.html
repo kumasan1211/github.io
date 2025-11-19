@@ -20,16 +20,15 @@
   <h3>定形レシピ</h3>
 <div class="side">
   <p>event.shaped( //定形レシピの指定<br>
-  "3x minecraft:cobblestone" //完成したもの<br>
+  Item.of('minecraft:stone', 8) //完成したもの<br>
   [<br>
-  'A B',<br>
-  ' C ', //レシピの配置<br>
-  'B A'<br>
+  'AAA',<br>
+  'ABA', //レシピの配置<br>
+  'AAA'<br>
   ],<br>
   {<br>
-    A: 'minecraft:andesite',<br>
-    B: 'minecraft:diorite',  //材料<br>
-    C: 'minecraft:granite'<br>
+    A: 'minecraft:cobblestone',<br>
+    B: 'minecraft:coal'  //材料<br>
   }</p>
 </div>
   <h2>不定形レシピ</h2>
@@ -41,6 +40,15 @@
     'minecraft:dirt' 	       // 材料<br>
   ]<br>
 )</p>
+  </div>
+  <h2>鍛冶台のレシピ</h2>
+  <div class="side">
+    event.smithing(<br>//鍛冶台のレシピ
+  'minecraft:netherite_ingot',                     // 完成品<br>
+  'minecraft:netherite_upgrade_smithing_template', // 鍛冶型の部分<br>
+  'minecraft:iron_ingot',                          // アップグレード<br>
+  'minecraft:black_dye'                            // 完成前の素材<br>
+)<br>
   </div>
 <h2> </h2>
 </div>
