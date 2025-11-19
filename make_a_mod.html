@@ -41,14 +41,35 @@
   ]<br>
 )</p>
   </div>
-  <h2>鍛冶台のレシピ</h2>
+  <h2>鍛冶台のレシピ (ver.1.20以上)</h2>
   <div class="side">
-    event.smithing(<br>//鍛冶台のレシピ
+    event.smithing(//鍛冶台のレシピ<br>
   'minecraft:netherite_ingot',                     // 完成品<br>
   'minecraft:netherite_upgrade_smithing_template', // 鍛冶型の部分<br>
   'minecraft:iron_ingot',                          // アップグレード<br>
   'minecraft:black_dye'                            // 完成前の素材<br>
-)<br>
+    )<br>
+  </div>
+  <h2>鍛冶台のレシピ (ver.1.19.2以下)</h2>
+    <div class="side">
+    event.smithing(//鍛冶台のレシピ<br>
+  'minecraft:netherite_ingot',                     // 完成品<br>
+  'minecraft:iron_ingot',                          // アップグレード<br>
+  'minecraft:black_dye'                            // 完成前の素材<br>
+    )<br>
+  </div>
+  <h2>かまどの精錬など</h2>
+    <div class="side">
+//furnace
+event.smelting('3x minecraft:gravel', 'minecraft:stone')
+
+//blast furnace
+event.blasting('10x minecraft:iron_nugget', 'minecraft:iron_ingot')
+
+//smoke
+event.smoking('minecraft:tinted_glass', 'minecraft:glass').xp(0.35).cookingTime(60) //20 (tick) = 1秒<br>
+      //campfire
+event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.35, 600)
   </div>
 <h2> </h2>
 </div>
