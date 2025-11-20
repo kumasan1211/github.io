@@ -60,16 +60,17 @@
   </div>
   <h3>かまどの精錬など</h3>
     <div class="side">
-//furnace<br>
+//かまど 完成品、素材<br>
 event.smelting('3x minecraft:gravel', 'minecraft:stone')<br>
 <br>
-//blast furnace<br>
+//溶鉱炉<br>
 event.blasting('10x minecraft:iron_nugget', 'minecraft:iron_ingot')<br>
 <br>
-//smoke<br>
-event.smoking('minecraft:tinted_glass', 'minecraft:glass').xp(0.35)<p rgb(244 0 0)>.</p>cookingTime(60) //20 (tick) = 1秒<br>
-      //campfire<br>
-event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.35, 600)
+//燻製器<br>
+event.smoking('minecraft:tinted_glass', 'minecraft:glass').xp(0.35).cookingTime(60) //20 (tick) = 1秒<br>
+      //キャンプファイヤー<br>
+event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.35, 600)<br>
+      //完成品,素材,XP,調理時間<br>
   </div>
 <h2> </h2>
 </div>
