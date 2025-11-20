@@ -31,7 +31,7 @@
     B: 'minecraft:coal'  //材料<br>
   }</p>
 </div>
-  <h2>不定形レシピ</h2>
+  <h3>不定形レシピ</h3>
   <div class="side">
   <p>event.shapeless(<br>
   Item.of('minecraft:grass', 3), //完成したもの<br>
@@ -50,7 +50,7 @@
   'minecraft:black_dye'                            // 完成前の素材<br>
     )<br>
   </div>
-  <h2>鍛冶台のレシピ (ver.1.19.2以下)</h2>
+  <h3>鍛冶台のレシピ (ver.1.19.2以下)</h3>
     <div class="side">
     event.smithing(//鍛冶台のレシピ<br>
   'minecraft:netherite_ingot',                     // 完成品<br>
@@ -58,17 +58,17 @@
   'minecraft:black_dye'                            // 完成前の素材<br>
     )<br>
   </div>
-  <h2>かまどの精錬など</h2>
+  <h3>かまどの精錬など</h3>
     <div class="side">
-//furnace
-event.smelting('3x minecraft:gravel', 'minecraft:stone')
-
-//blast furnace
-event.blasting('10x minecraft:iron_nugget', 'minecraft:iron_ingot')
-
-//smoke
+//furnace<br>
+event.smelting('3x minecraft:gravel', 'minecraft:stone')<br>
+<br>
+//blast furnace<br>
+event.blasting('10x minecraft:iron_nugget', 'minecraft:iron_ingot')<br>
+<br>
+//smoke<br>
 event.smoking('minecraft:tinted_glass', 'minecraft:glass').xp(0.35).cookingTime(60) //20 (tick) = 1秒<br>
-      //campfire
+      //campfire<br>
 event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.35, 600)
   </div>
 <h2> </h2>
