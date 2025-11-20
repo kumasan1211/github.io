@@ -168,7 +168,11 @@ h4 {
 	font-size: 14px;
 }
 .red
-	{color: #b6313f;}
+	{
+		color: red;
+	}
 	.function
-	{color: #bad34d;}
+	{
+		color: yellow;
+	}
 }
