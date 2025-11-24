@@ -22,7 +22,13 @@
      sizes="auto" src="images/crafting_ui.png" alt="crafting table" 
     width="500" height="256"/>
 <p>一番バニラの作業台で使われているものです <br>
-event.sharped()で指定をします</p>
+event.sharped("完成品",[パターン],素材とかのキー設定)で指定をします</p>
+  <h4>完成品</h4>
+  <p>"minecraft:stone"などの「アイテムID」で設定をします <br>
+  ※アイテムIDとは「 /give @s minecraft:apple 」などの 「 minecraft:apple 」の部分のことを指します<br>
+   <br>
+  アイテムIDがわからない場合は「 /kjs hand 」で調べることができます
+  </p>
 <div class="side">
   <p>event.shaped( //定形レシピの指定<br>
   Item.of('minecraft:stone', 8) //完成したもの<br>
