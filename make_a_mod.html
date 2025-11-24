@@ -20,7 +20,7 @@
   <h3>定形レシピ</h3>
   <img
      sizes="auto" src="images/Screenshot 2025-11-22 09.51.11.png" alt="crafting table" 
-    width="300" height="200"/>
+    width="500" height="256"/>
 <p></p>
 <div class="side">
   <p>event.shaped( //定形レシピの指定<br>
@@ -70,13 +70,14 @@ event.smelting('3x minecraft:gravel', 'minecraft:stone')<br>
 //溶鉱炉　かまどと同じ<br>
 event.blasting('10x minecraft:iron_nugget', 'minecraft:iron_ingot')<br>
 <br>
-//燻製器<　かまどと同じ<br>
+//燻製器　かまどと同じ<br>
 event.smoking('minecraft:tinted_glass', 'minecraft:glass').xp(0.35).cookingTime(60) //20 (tick) = 1秒<br>
       //キャンプファイヤー<br>
 event.campfireCooking('minecraft:torch', 'minecraft:stick', 0.35, 600)<br>
       //完成品,素材,XP,調理時間<br>
   </div>
   <h3>石切台</h3>
+  
   <div class="side">
 //      石切台              完成品                    素材<br>
 event.stonecutting('4x minecraft:stick', '#minecraft:planks')<br>
